@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+  <meta name="theme-color" content="#ECEBE6" id="theme-color-meta"/>
+  <title>MARTINS DESIGN — Sites para Microempresas</title>
+  
+  <!-- Fontes Editoriais de Alta Sofisticação -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- MENU MOBILE DRAWER (GAVETA FLUTUANTE ELEGANTE) -->
+  <div class="mobile-drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Menu de Navegação">
+    <div class="drawer-header">
+      <span class="drawer-logo">MARTINS DESIGN</span>
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Fechar menu">✕</button>
+    </div>
+
+    <div class="drawer-theme-toggle-row">
+      <span class="drawer-theme-label">MODO ESCURO</span>
+      <button class="theme-toggle-pill" id="drawerThemeToggle" aria-label="Alternar tema escuro/claro">
+        <span class="toggle-icon sun-icon">☼</span>
+        <span class="toggle-slider"></span>
+        <span class="toggle-icon moon-icon">☾</span>
+      </button>
+    </div>
+
+    <ul class="drawer-nav-list">
+      <li><a href="#portfolio" class="drawer-link"><span class="drawer-num">01</span><span>Projetos & Portfólio</span></a></li>
+      <li><a href="#servicos" class="drawer-link"><span class="drawer-num">02</span><span>Serviços & Recursos</span></a></li>
+      <li><a href="#precos" class="drawer-link"><span class="drawer-num">03</span><span>Investimento Abaixo de 100</span></a></li>
+      <li><a href="#contato" class="drawer-link"><span class="drawer-num">04</span><span>Falar com o Vitor</span></a></li>
+    </ul>
+
+    <div class="drawer-footer">
+      <a href="https://wa.me/5561986480461?text=Ol%C3%A1%20Vitor%2C%20quero%20um%20site%20com%20a%20Martins!" target="_blank" class="drawer-wa-btn">
+        <span>FALAR COM VITOR NO WHATSAPP</span>
+        <span class="arrow-icon">→</span>
+      </a>
+      <span class="drawer-phone">📞 (61) 98648-0461</span>
+    </div>
+  </aside>
+
+  <!-- FRAME EXTERNO ESTILO EDITORIAL / DRIBBLE -->
+  <div class="site-frame">
+
+    <!-- HERO SECTION CONTAINER COM CANTOS ARREDONDADOS -->
+    <header class="hero-card" id="hero">
+      
+      <!-- Fundo de montanha e névoa atmosférica -->
+      <div class="hero-photo-bg"></div>
+      <div class="hero-fog-overlay"></div>
+      
+      <!-- NAVBAR ELEGANTE -->
+      <nav class="nav">
+        <ul class="nav-links-left">
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#precos">Preço</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <a href="#hero" class="nav-brand">MARTINS DESIGN</a>
+
+        <div class="nav-right">
+          <!-- Botão Switch Dark / Light Mode no Desktop -->
+          <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Alternar modo escuro" title="Alternar Modo Escuro / Claro">
+            <span class="theme-icon-light" aria-hidden="true">☼</span>
+            <span class="theme-icon-dark" aria-hidden="true">☾</span>
+            <span class="theme-btn-text">TEMA</span>
+          </button>
+
+          <span class="nav-badge-text">Sites modernos<br>para microempresas</span>
+
+          <!-- Botão de Menu Hambúrguer (Mobile e Tablet) -->
+          <button class="nav-circle-btn" id="hamburgerBtn" aria-label="Abrir menu de navegação">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- LETREIRO GIGANTE INTEGRADO COM A NÉVOA -->
+      <div class="hero-giant-brand">
+        <h1 class="giant-text">MARTINS</h1>
+        <span class="giant-sub">DESIGN</span>
+      </div>
+
+      <!-- DETALHE SUPERIOR DIREITO -->
+      <div class="hero-corner-meta">
+        <div class="meta-line">
+          <span class="meta-num">01</span>
+          <span class="meta-dash"></span>
+        </div>
+        <div class="meta-words">
+          <span>IDEIAS</span>
+          <span>INTERFACES</span>
+          <span>IMPACTO</span>
+        </div>
+      </div>
+
+      <!-- PARTE INFERIOR DO HERO -->
+      <div class="hero-bottom-grid">
+        
+        <!-- Bloco de Texto Esquerdo -->
+        <div class="hero-left-cta">
+          <h2 class="hero-main-heading">
+            DESIGN PARA<br>
+            O SEU NEGÓCIO<br>
+            CRESCER
+          </h2>
+          <p class="hero-summary">
+            Criamos sites modernos e profissionais para microempresas e autônomos.
+            Preço definido durante o atendimento, <strong>sempre abaixo de R$ 100</strong>.
+          </p>
+          <a href="https://wa.me/5561986480461?text=Ol%C3%A1%20Vitor%2C%20quero%20falar%20sobre%20meu%20site!" class="hero-pill-btn" target="_blank">
+            <span>FALAR COM VITOR</span>
+            <div class="pill-arrow-circle">→</div>
+          </a>
+        </div>
+
+        <!-- Card Flutuante Translúcido Direito -->
+        <div class="hero-glass-preview">
+          <div class="glass-thumb">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Exemplo de design moderno" loading="lazy" />
+          </div>
+          <div class="glass-caption">
+            <span class="glass-text">EXPLORAR<br>TRABALHOS</span>
+            <a href="#portfolio" class="glass-arrow-btn" aria-label="Ir para trabalhos">→</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- BARRA DE ROLAGEM INFERIOR -->
+      <div class="hero-footer-bar">
+        <div class="pagination-steps">
+          <span class="step-num active">01</span>
+          <span class="step-num">02</span>
+          <span class="step-num">03</span>
+        </div>
+        <a href="#servicos" class="scroll-discover">
+          <span>ROLE PARA DESCOBRIR</span>
+          <div class="mouse-icon">
+            <span class="mouse-wheel"></span>
+          </div>
+        </a>
+      </div>
+
+    </header>
+
+    <!-- SEÇÃO DE SERVIÇOS EM 3 COLUNAS COM BOTÃO CIRCULAR -->
+    <section class="services-strip" id="servicos">
+      <div class="services-columns">
+        
+        <div class="service-col">
+          <span class="col-num">01</span>
+          <h3 class="col-title">IDENTIDADE & LANDING PAGE</h3>
+          <p class="col-desc">
+            Páginas de alto impacto visual para apresentar seus serviços, gerar autoridade e receber contatos no WhatsApp.
+          </p>
+        </div>
+
+        <div class="service-col">
+          <span class="col-num">02</span>
+          <h3 class="col-title">CARDÁPIO & DELIVERY</h3>
+          <p class="col-desc">
+            Cardápio digital moderno, fácil de atualizar, com envio de pedidos detalhados direto para o seu WhatsApp.
+          </p>
+        </div>
+
+        <div class="service-col">
+          <span class="col-num">03</span>
+          <h3 class="col-title">LOJAS & PRODUTOS</h3>
+          <p class="col-desc">
+            Catálogo virtual atraente com fotos, preços e pagamento rápido via Pix para alavancar suas vendas online.
+          </p>
+        </div>
+
+        <div class="service-action-col">
+          <a href="#portfolio" class="big-circle-btn" aria-label="Ver todos os tipos">
+            <span>→</span>
+          </a>
+          <span class="action-label">TODOS OS SERVIÇOS</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO FEATURED WORK (TIPOS DE SITES QUE POSSO FAZER) -->
+    <section class="featured-work" id="portfolio">
+      <div class="section-title-row">
+        <h2 class="featured-heading">FEATURED WORK</h2>
+        <a href="#contato" class="view-all-link">VER TODOS <span>→</span></a>
+      </div>
+
+      <div class="work-gallery-grid">
+
+        <!-- Card 1: Salão & Estética -->
+        <div class="work-card">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=80" alt="Site para Salão e Estética" loading="lazy" />
+            <div class="media-overlay"></div>
+          </div>
+          <div class="card-content-bottom">
+            <div class="card-tags">
+              <h4 class="card-title">AURA</h4>
+              <span class="card-category">SALÃO & ESTÉTICA</span>
+            </div>
+            <span class="card-index">01</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Restaurante & Delivery -->
+        <div class="work-card">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Site para Restaurante e Delivery" loading="lazy" />
+            <div class="media-overlay"></div>
+          </div>
+          <div class="card-content-bottom">
+            <div class="card-tags">
+              <h4 class="card-title">NORD</h4>
+              <span class="card-category">RESTAURANTE & DELIVERY</span>
+            </div>
+            <span class="card-index">02</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Loja Virtual & Produtos -->
+        <div class="work-card">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80" alt="Site para Loja Virtual" loading="lazy" />
+            <div class="media-overlay"></div>
+          </div>
+          <div class="card-content-bottom">
+            <div class="card-tags">
+              <h4 class="card-title">LUMIÈRE</h4>
+              <span class="card-category">CATÁLOGO & LOJA VIRTUAL</span>
+            </div>
+            <span class="card-index">03</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Consultórios & Saúde -->
+        <div class="work-card">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80" alt="Site para Clínicas e Saúde" loading="lazy" />
+            <div class="media-overlay"></div>
+          </div>
+          <div class="card-content-bottom">
+            <div class="card-tags">
+              <h4 class="card-title">SANTE</h4>
+              <span class="card-category">CLÍNICA & SAÚDE</span>
+            </div>
+            <span class="card-index">04</span>
+          </div>
+        </div>
+
+        <!-- Card 5: Portfólio Profissional -->
+        <div class="work-card">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=900&q=80" alt="Portfólio Profissional" loading="lazy" />
+            <div class="media-overlay"></div>
+          </div>
+          <div class="card-content-bottom">
+            <div class="card-tags">
+              <h4 class="card-title">ATELIER</h4>
+              <span class="card-category">PORTFÓLIO & AUTÔNOMOS</span>
+            </div>
+            <span class="card-index">05</span>
+          </div>
+        </div>
+
+        <!-- Card 6: Negócios Locais & Institucional -->
+        <div class="work-card">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80" alt="Site Institucional e Negócios Locais" loading="lazy" />
+            <div class="media-overlay"></div>
+          </div>
+          <div class="card-content-bottom">
+            <div class="card-tags">
+              <h4 class="card-title">URBAN</h4>
+              <span class="card-category">NEGÓCIOS & EMPRESAS</span>
+            </div>
+            <span class="card-index">06</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE PREÇO (FOCO EM PREÇO COMBINADO NO ATENDIMENTO ABAIXO DE 100) -->
+    <section class="price-editorial-section" id="precos">
+      <div class="price-editorial-grid">
+        
+        <div class="price-editorial-left">
+          <span class="meta-small-tag">VALOR ACESSÍVEL</span>
+          <h2 class="price-editorial-title">
+            SEMPRE ABAIXO<br>
+            DE R$ 100
+          </h2>
+          <p class="price-editorial-p">
+            Sem tabelas engessadas ou valores abusivos. Você me conta o que o seu negócio precisa e nós definimos o valor juntos durante o atendimento.
+          </p>
+          <div class="price-badge-highlight">
+            <span class="badge-icon">✓</span>
+            <span>Preço combinado diretamente com o Vitor</span>
+          </div>
+        </div>
+
+        <div class="price-editorial-right">
+          <div class="steps-list">
+            
+            <div class="step-card">
+              <span class="step-card-num">01</span>
+              <div class="step-card-info">
+                <h4>Você me conta a sua ideia</h4>
+                <p>Qual é o seu nicho, as informações principais e como prefere o visual do seu site.</p>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <span class="step-card-num">02</span>
+              <div class="step-card-info">
+                <h4>Definimos o valor juntos</h4>
+                <p>Preço transparente e acessível, sempre abaixo de R$ 100. Sem taxas surpresas.</p>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <span class="step-card-num">03</span>
+              <div class="step-card-info">
+                <h4>Site no ar em tempo recorde</h4>
+                <p>Desenvolvimento ágil em 3 a 7 dias úteis, responsivo e pronto para converter clientes.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <a href="https://wa.me/5561986480461?text=Ol%C3%A1%20Vitor%2C%20gostaria%20de%20combinar%20um%20site%20abaixo%20de%20100!" class="price-action-btn" target="_blank">
+            <span>COMBINAR COM VITOR NO WHATSAPP</span>
+            <span class="btn-arrow">→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- POR QUE ESCOLHER A MARTINS -->
+    <section class="benefits-section">
+      <div class="benefits-grid">
+        <div class="benefits-header-col">
+          <span class="meta-small-tag">DIFERENCIAIS</span>
+          <h2 class="benefits-title">SEM COMPLICAÇÃO.<br>SEM INTERMEDIÁRIOS.</h2>
+          <p class="benefits-lead">
+            Você lida diretamente com quem constrói o seu site. Resultado: rapidez, atendimento humanizado e preço justo.
+          </p>
+          <a href="https://wa.me/5561986480461?text=Ol%C3%A1%20Vitor%2C%20vamos%20conversar%20sobre%20o%20site!" class="btn-black-outline" target="_blank">
+            FALAR COM VITOR <span>→</span>
+          </a>
+        </div>
+
+        <div class="benefits-items-col">
+          <div class="benefit-row">
+            <span class="b-num">01</span>
+            <div>
+              <h5>100% Otimizado para Celular</h5>
+              <p>Mais de 80% dos clientes acessam pelo smartphone. Seu site carrega rápido e com navegação perfeita.</p>
+            </div>
+          </div>
+
+          <div class="benefit-row">
+            <span class="b-num">02</span>
+            <div>
+              <h5>Integração Direta com WhatsApp</h5>
+              <p>Botões de contato estrategicamente posicionados para transformar visitantes em mensagens e vendas.</p>
+            </div>
+          </div>
+
+          <div class="benefit-row">
+            <span class="b-num">03</span>
+            <div>
+              <h5>Otimização para o Google (SEO)</h5>
+              <p>Estrutura limpa e indexável para que o seu negócio seja encontrado nas pesquisas da sua região.</p>
+            </div>
+          </div>
+
+          <div class="benefit-row">
+            <span class="b-num">04</span>
+            <div>
+              <h5>Suporte Amigável</h5>
+              <p>Tire dúvidas e conte comigo após a entrega do projeto com total tranquilidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO FAQ (DÚVIDAS FREQUENTES) -->
+    <section class="faq-editorial">
+      <div class="faq-container">
+        <span class="meta-small-tag">DÚVIDAS FREQUENTES</span>
+        <h2 class="faq-heading">RESPOSTAS DIRETAS</h2>
+
+        <div class="faq-accordion">
+          <details class="faq-row">
+            <summary>
+              <span>Como funciona o preço abaixo de R$ 100?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              Cada microempresa tem uma necessidade diferente. Você me chama no WhatsApp, me explica o que precisa e eu calculo o valor mais econômico possível para o seu projeto, garantindo que nunca ultrapasse R$ 100.
+            </p>
+          </details>
+
+          <details class="faq-row">
+            <summary>
+              <span>Eu preciso entender de programação?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              Não precisa de nenhum conhecimento técnico. Eu entrego o site 100% pronto, testado e publicado, pronto para você divulgar para seus clientes.
+            </p>
+          </details>
+
+          <details class="faq-row">
+            <summary>
+              <span>Em quantos dias o site fica pronto?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              Geralmente entre 3 e 7 dias úteis após recebermos as informações principais (seus dados, fotos dos serviços ou produtos).
+            </p>
+          </details>
+
+          <details class="faq-row">
+            <summary>
+              <span>E se eu não tiver fotos ou logotipo?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              Não se preocupe! Posso selecionar fotografias profissionais em alta resolução do seu nicho e criar uma identidade tipográfica elegante para a sua marca sem custo extra.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO DIRETO -->
+    <section class="contact-editorial" id="contato">
+      <div class="contact-editorial-grid">
+        
+        <div class="contact-editorial-info">
+          <span class="meta-small-tag">VAMOS CRIAR JUNTOS</span>
+          <h2 class="contact-editorial-title">
+            PRONTO PARA<br>
+            COLOCAR SEU SITE<br>
+            NO AR?
+          </h2>
+          <p class="contact-editorial-lead">
+            Entre em contato pelo WhatsApp e receba seu orçamento personalizado em minutos.
+          </p>
+
+          <a href="https://wa.me/5561986480461?text=Ol%C3%A1%20Vitor%2C%20gostaria%20de%20criar%20um%20site%20com%20a%20Martins!" class="whatsapp-main-btn" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <span>FALAR COM VITOR NO WHATSAPP</span>
+          </a>
+
+          <div class="direct-phone-block">
+            <span class="phone-label">ATENDIMENTO DIRETO</span>
+            <a href="https://wa.me/5561986480461" class="phone-link">📞 (61) 98648-0461</a>
+          </div>
+        </div>
+
+        <form class="editorial-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="field-wrap">
+            <label>SEU NOME</label>
+            <input type="text" placeholder="Como podemos te chamar?" required />
+          </div>
+
+          <div class="field-wrap">
+            <label>WHATSAPP COM DDD</label>
+            <input type="tel" placeholder="(61) 99999-9999" required />
+          </div>
+
+          <div class="field-wrap">
+            <label>QUAL É O SEU RAMO?</label>
+            <select required>
+              <option value="" disabled selected>Selecione seu segmento...</option>
+              <option>Salão de Beleza / Estética / Barbearia</option>
+              <option>Restaurante / Lanchonete / Delivery</option>
+              <option>Loja / Catálogo de Produtos</option>
+              <option>Clínica / Dentista / Psicologia</option>
+              <option>Portfólio / Profissional Autônomo</option>
+              <option>Serviços Locais / Empresa</option>
+              <option>Outro</option>
+            </select>
+          </div>
+
+          <div class="field-wrap">
+            <label>CONTE UM POUCO SOBRE O QUE PRECISA</label>
+            <textarea rows="3" placeholder="Ex: Preciso de um site simples para divulgar meus serviços no WhatsApp..."></textarea>
+          </div>
+
+          <button type="submit" class="submit-pill-btn">
+            <span>ENVIAR MENSAGEM</span>
+            <span class="arrow-sym">→</span>
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+    <!-- FOOTER MINIMALISTA -->
+    <footer class="editorial-footer">
+      <div class="footer-content">
+        <h3 class="footer-logo">MARTINS DESIGN</h3>
+        <p class="footer-tagline">Presença digital de alta qualidade para microempresas e autônomos.</p>
+        
+        <div class="footer-nav-links">
+          <a href="#hero">Início</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#portfolio">Projetos</a>
+          <a href="#precos">Preços</a>
+          <a href="#contato">Falar com Vitor</a>
+        </div>
+
+        <span class="footer-copyright">© 2026 Martins Design. Todos os direitos reservados.</span>
+      </div>
+    </footer>
+
+  </div> <!-- /site-frame -->
+
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <a href="https://wa.me/5561986480461?text=Ol%C3%A1%20Vitor%2C%20gostaria%20de%20um%20site%20com%20a%20Martins!" class="floating-wa" target="_blank" aria-label="Falar com Vitor no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
